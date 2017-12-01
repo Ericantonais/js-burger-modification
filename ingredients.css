@@ -1,3 +1,7 @@
+.test {
+  box-shadow: 10px 3px black;
+}
+
 .bun-top {
   height: 70px;
   width: 60%;
@@ -20,7 +24,11 @@
   border-bottom: solid 2px rgba(0,0,0,.1);
 }
 
-.meatball {
+body div.meatball {
+  width: 40px; 
+}
+
+.burger div.meatball {
   height: 60px;
   width: 70px;
   background: #74380d;
@@ -35,6 +43,11 @@
   background: #ad370b;
   border-radius: 15px;
   border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+h2 strong {
+  font-size: 20px;
+  color: yellow;
 }
 
 .pickle {

@@ -1,10 +1,18 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <title>Build-a-Burger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="ingredients.css">
+    <style>
+        #top {
+          width: 10%;
+        }
+    </style>
   </head>
+
   <body>
     
     <h1>The Best Burger</h1>
@@ -16,7 +24,8 @@
     Change ingredient colors in the "ingredients.css" file.
     -->
     
-    <div class="burger">
+
+    <div class="burger bordered">
       <div class="bun-top" id="top"></div>
       <div class="cheese"></div>
       <div class="tomato"></div>
@@ -28,12 +37,15 @@
       <div class="meatball"></div>
       <div class="meatball"></div>
       <div class="pickle"></div>
-      <div class="patty"></div>
+      <div class="patty"><span>texte</span></div>
       <div class="patty"></div>
       <div class="bun-bottom"></div>
       <div class="plate"></div>
     </div>
-  
+    
+
     Plus d'infos sur <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">la documentation officielle</a>
+    
+    <script src="solution.js"></script>
   </body>
 </html>
